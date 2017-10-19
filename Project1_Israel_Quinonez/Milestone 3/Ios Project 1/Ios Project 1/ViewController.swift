@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
-   let filename = "savedData.plist"
+   let filename = "savedData1.plist"
     
     func docFilePath(_ filename: String) -> String?{
         let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.allDomainsMask, true)
